@@ -64,8 +64,8 @@ export default async (client, interaction) => {
     }
 
     const basicInputs = {
-      name: { id: 'name_input', label: t('name', lang), placeholder: 'e.g. My Room' },
-      limit: { id: 'limit_input', label: t('limit', lang), placeholder: 'e.g. 5' }
+      name: { id: 'name_input', label: t('name', lang), placeholder: 'например: Моя комната или лав рум' },
+      limit: { id: 'limit_input', label: t('limit', lang), placeholder: 'если 0 то лимит снят' }
     }
 
     if (basicInputs[id]) {
