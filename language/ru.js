@@ -1,6 +1,6 @@
 const ru = {
     // Dashboard
-    "dashboard_title": "Панель Tempvoice",
+    "dashboard_title": "Панель XTrap Roombot",
     "dashboard_description": "Добро пожаловать в панель Tempvoice — управляй и настраивай свой голосовой канал.",
     "dashboard_create_link": "Твой голос — твоя комната. Начни здесь: https://discord.com/channels/{guildId}/{channelId}",
     "dashboard_footer": "Используй кнопки ниже, чтобы управлять каналом.",
@@ -19,11 +19,11 @@ const ru = {
     "claim_desc": "Забрать канал, если владелец ушёл",
     "transfer_desc": "Передать владение каналом другому",
     "delete_desc": "Удалить временный голосовой канал",
-    "name": "Имя",
-    "limit": "Лимит",
+    "name": "Название канала",
+    "limit": "Число участника",
     "privacy": "Приватность",
     "dnd": "Не беспокоить",
-    "region": "Регион",
+    "region": "Смена региона",
     "trust": "Доверие",
     "untrust": "Убрать доступ",
     "block": "Заблокировать",
@@ -98,14 +98,14 @@ const ru = {
     // Region
     "region_option": "Выбери регион.",
     "region_placeholder": "Выбери регион",
-    "region_updated": "Регион обновлён: {region}.",
+    "region_updated": "Регион обновлён на {region}.",
     "error_region": "Ошибка при обновлении региона.",
     "log_region": "{user} изменил регион на {region} в {channel}.",
 
     // Bitrate
-    "bitrate_option": "Выбери битрейт.",
-    "bitrate_placeholder": "Выбери качество",
-    "bitrate_updated": "Битрейт установлен: {bitrate} кбит/с.",
+    "bitrate_option": "Выберите битрейт.",
+    "bitrate_placeholder": "Выберите качество",
+    "bitrate_updated": "Битрейт установлен на {bitrate} кбит/с.",
     "error_bitrate": "Ошибка при установке битрейта.",
     "log_bitrate": "{user} изменил битрейт на {bitrate} кбит/с в {channel}.",
 
@@ -129,7 +129,7 @@ const ru = {
     "privacy_unlock": "Канал открыт. Все могут присоединиться.",
     "privacy_invisible_label": "Невидимый",
     "privacy_invisible_desc": "Канал виден только доверенным",
-    "privacy_invisible": "Канал теперь невидим для других.",
+    "privacy_invisible": "Канал теперь скрыт от других юзеров.",
     "privacy_visible_label": "Видимый",
     "privacy_visible_desc": "Канал видят все",
     "privacy_visible": "Канал теперь виден всем.",
