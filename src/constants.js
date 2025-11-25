@@ -32,7 +32,6 @@ export const VOICE_REGIONS = [
   'hongkong',
   'india',
   'japan',
-  'russia',
   'singapore',
   'southafrica',
   'sydney',
