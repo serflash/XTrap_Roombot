@@ -1,6 +1,6 @@
 export default {
-  label: 'Jevenchy',
-  embedcode: '#2f3136',
-  language: 'en',
+  label: 'XTrap_Roombot',
+  embedcode: '#f47738',
+  language: 'ru',
   log: true
 }
