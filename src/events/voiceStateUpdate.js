@@ -78,7 +78,7 @@ export default async (client, oldState, newState) => {
 
       try {
         const temp = await newChannel.guild.channels.create({
-          name: `${member.user.username} - room`,
+          name: `Комната ${member.user.username}`,
           type: ChannelType.GuildVoice,
           parent: process.env.CATEGORY_CHANNEL_ID
         })
@@ -121,7 +121,7 @@ export default async (client, oldState, newState) => {
     })
 
     const isOwner = client.tempVoiceOwners?.get(oldChannel.id) === member.id
-    if (oldChannel.members.size > 0 || !isOwner) return
+    if (oldChannel.members.size > 2 || !isOwner) return
 
     await deleteChannel(oldChannel, client)
     return
@@ -129,7 +129,7 @@ export default async (client, oldState, newState) => {
 
   if (oldChannel && newChannel && oldChannel.id !== newChannel.id) {
     const isOwner = client.tempVoiceOwners?.get(oldChannel.id) === member.id
-    if (oldChannel.members.size > 0 || !isOwner) return
+    if (oldChannel.members.size > 2 || !isOwner) return
 
     await deleteChannel(oldChannel, client)
   }
