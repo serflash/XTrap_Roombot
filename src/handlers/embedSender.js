@@ -6,7 +6,7 @@ import {
 } from 'discord.js'
 import 'dotenv/config'
 
-const useUnicode = process.env.USE_UNICODE_EMOJI === 'true'
+const useUnicode = process.env.USE_UNICODE_EMOJI === 'false'
 
 const unicodeEmojis = {
   name: '📝',
